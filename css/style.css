@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1500px;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.golova {
+    background-image: url("../img/cartina1.png");
+    height: 500px;
+    background-size: contain;
+    background-position: center;
+}
+
+.logo {
+    float: left;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul li {
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+header nav ul li a {
+    color: black;
+}
+
+.posts {
+    position: absolute;
+    width: 1200px;
+    height: 1290px;
+    left: 120px;
+    top: 664px;
+}
+
+
+.posts .post-row img {
+    width: 402px;
+    height: 268px;
+}
+
+.email input#name {
+    position: absolute;
+    width: 407px;
+    height: 63px;
+    left: 303px;
+    top: 3982px;
+
+    background: rgba(255, 255, 255, 0.4);
+    border: 1px solid #202117;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.podval {
+    height: 181px;
+    background: #D7D1C9;
+}
+
+footer nav {
+    width: 500px;
+    margin: 0 auto;
+}
+
+footer nav ul li {
+    float: left;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+footer nav ul li a {
+    color: black;
+}
