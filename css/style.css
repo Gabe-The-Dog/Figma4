@@ -1,6 +1,8 @@
+/**/
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Spectral SC', serif;
 }
 
 .wrapper {
@@ -16,10 +18,64 @@ a {
     text-decoration: none;
 }
 
+h1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54, 79px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27, 4px;
+
+    margin-top: 22px;
+    margin-bottom: 8px;
+}
+
+h3 {
+    margin-bottom: 12px;
+}
+
+h3,
+h4 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+h4 {}
+
+h5 {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+
+/**/
 .golova {
     background-image: url("../img/cartina1.png");
-    height: 500px;
-    background-size: contain;
+    height: 581px;
+    background-size: cover;
     background-position: center;
 }
 
@@ -39,38 +95,193 @@ header nav ul li {
 
 header nav ul li a {
     color: black;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
 }
 
+
+/**/
 .posts {
     position: absolute;
-    width: 1200px;
+    width: 1202px;
     height: 1290px;
-    left: 120px;
+    left: 118px;
     top: 664px;
 }
 
+select,
+option {
+    width: 203px;
+    height: 46px;
+    left: 1116px;
+    top: 664px;
+    background: #D7D1C9;
 
-.posts .post-row img {
-    width: 402px;
-    height: 268px;
+    border-radius: 10px;
+    border: none;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21, 79px;
 }
 
-.email input#name {
-    position: absolute;
-    width: 407px;
-    height: 63px;
-    left: 303px;
-    top: 3982px;
+.posts-up-el1 {
+    float: left;
+}
 
+.posts-up-el2 {
+    float: right;
+}
+
+.posts .post-row img {
+    width: 387px;
+    height: 268px;
+    left: 118px;
+    top: 775px;
+
+    border-radius: 10px;
+}
+
+.post-row {
+    margin-top: 54px;
+    display: block;
+    width: 380px;
+    float: left;
+    margin-right: 20px;
+}
+
+.post-row2 {
+    float: left;
+    height: 500px;
+    color: white;
+    border-radius: 10px;
+
+    margin-right: 20px;
+    margin-top: 62px;
+}
+
+#big-post1 {
+    background-image: url(../img/bigpost1.png);
+}
+
+#big-post2 {
+    background-image: url(../img/bigpost2.png);
+}
+
+.post-butt {
+    position: absolute;
+    width: 224px;
+    height: 46px;
+    background: white;
+
+    border: 1px solid #202117;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: 104px;
+    cursor: pointer;
+}
+
+
+/**/
+.about {
+    position: absolute;
+    width: 1180px;
+    height: 797.15px;
+    left: 120px;
+    top: 2039px;
+}
+
+.about-el {
+    width: 590px;
+    float: left;
+    margin-top: 50px;
+}
+
+
+/**/
+.portfolio {
+    position: absolute;
+    width: 1200px;
+    height: 779px;
+    left: 120px;
+    top: 2921px;
+}
+
+.port-el {
+    float: left;
+    width: 380px;
+    height: 525px;
+    margin-right: 20px;
+    border-radius: 10px;
+
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.15));
+}
+
+#port-el1 {
+    background-image: url("../img/port1.png");
+}
+
+#port-el2 {
+    background-image: url("../img/port2.png");
+}
+
+#port-el3 {
+    background-image: url("../img/port3.png");
+}
+
+
+/**/
+.email {
+    position: absolute;
+    width: 996px;
+    height: 741px;
+    left: 222px;
+    top: 3785px;
+}
+
+.email-content {
+    width: 1000px;
+    height: 670.17px;
+    background-image: url("../img/email.png");
+}
+
+.email input {
     background: rgba(255, 255, 255, 0.4);
     border: 1px solid #202117;
     box-sizing: border-box;
     border-radius: 10px;
+    width: 407px;
+    height: 63px;
 }
 
+input#text {
+    width: 837px;
+    height: 293px;
+}
+
+#email-butt {
+    width: 224px;
+    height: 46px;
+
+    border: 1px solid #202117;
+    box-sizing: border-box;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+/**/
 .podval {
-    height: 181px;
     background: #D7D1C9;
+    position: absolute;
+    width: 1519px;
+    height: 181px;
+    left: 0px;
+    top: 4607px;
 }
 
 footer nav {

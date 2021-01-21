@@ -1,98 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Blog</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Spectral+SC:wght@300&display=swap" rel="stylesheet">
 </head>
+
 <body>
-<section class="golova">
-    <header class="wrapper">
-        <a href="index.html"><img src="logo.svg" alt="" class="logo"></a>
-        <nav>
-            <ul>
-                <li><a href="">Статьи</a></li>
-                <li><a href="">Обо мне</a></li>
-                <li><a href="">Портфолио</a></li>
-                <li><a href="">Написать мне</a></li>
+    <section class="golova">
+        <header class="wrapper">
+            <a href="index.html"><img src="logo.svg" alt="logo.svg" class="logo"></a>
+            <nav>
+                <ul>
+                    <li><a href="">Статьи</a></li>
+                    <li><a href="">Обо мне</a></li>
+                    <li><a href="">Портфолио</a></li>
+                    <li><a href="">Написать мне</a></li>
+                </ul>
+            </nav>
+        </header>
+    </section>
+    <section class="posts">
+        <div class="posts-up">
+            <ul class="clearfix">
+                <li class="posts-up-el1">
+                    <h1>Все статьи</h1>
+                </li>
+                <li class="posts-up-el2">
+                    <select name="" id="">
+                        <option hidden>Выбрать тему</option>
+                        <option>Путешествия</option>
+                        <option>Город</option>
+                        <option>Книги</option>
+                        <option>Фотографии</option>
+                        <option>Рецепты</option>
+                    </select>
+                </li>
             </ul>
-        </nav>
-    </header>
-</section>
-<section class="posts">
-    <div class="posts-up">
-        <h1>Все статьи</h1>
-        <select name="" id="">
-            <option>Выбрать статью</option>
-            <option>путешествия</option>
-            <option>город</option>
-            <option>книги</option>
-            <option>фотографии</option>
-            <option>рецепты</option>
-        </select>
-    </div>
-    <div class="posts-content">
-        <div class="post">
-            <div class="post-row">
-                <img src="img/post1.png" alt="">
-                <h2>ПУТЕШЕСТВИЕ В БЕРЛИН В АВГУСТЕ</h2>
-                <p>Летний месяц я провела в столице Германии вместе с друзьями. И вот как это было!</p>
-                <p>Теги: путешествия</p>
-                <p>29.09.2020</p>
-            </div>
         </div>
-        <div class="post">
-            <div class="post-row">
-                <img src="img/post2.png" alt="">
-                <h2>ГДЕ ВЫПИТЬ КОЛДБРЮ В МОСКВЕ</h2>
-                <p>Собрала для вас список любимых кофеен,
-                    где подают лучший летний напиток.</p>
-                <p>Теги: город</p>
-                <p>24.07.2020</p>
-            </div>
+        <div class="posts-content">
+            <ul class="clearfix">
+                <li class="post-row">
+                    <img src="img/post1.png" alt="post1.png">
+                    <h2>Путешествие в Берлин в августе</h2>
+                    <h3>Летний месяц я провела в столице Германии вместе с друзьями. И вот как это было!</h3>
+                    <h4>Теги: путешествия</h4>
+                    <h4>29.09.2020</h4>
+                </li>
+                <li class="post-row">
+                    <img src="img/post2.png" alt="post2.png">
+                    <h2>Где выпить колдбрю в Москве</h2>
+                    <h3>Собрала для вас список любимых кофеен,
+                        где подают лучший летний напиток.</h3>
+                    <h4>Теги: город</h4>
+                    <h4>24.07.2020</h4>
+                </li>
+                <li class="post-row">
+                    <img src="img/post3.png" alt="post3.png">
+                    <h2>Прочитано: книжные рекомендации</h2>
+                    <h3>Рассказываю о прочитанных за последнее время книгах: фавориты и провалы.</h3>
+                    <h4>Теги: книги</h4>
+                    <h4>15.07.2020</h4>
+                </li>
+            </ul>
+            <ul class="clearfix">
+                <li class="post-row2" id="big-post1">
+                    <h2>Снимки на плёнку</h2>
+                    <h3>Поделилась с вами весенними фотографиями,
+                        и секретами удачных снимков.</h3>
+                    <h4>Теги: фотографии</h4>
+                    <h4>29.06.2020</h4>
+                </li>
+                <li class="post-row2" id="big-post2">
+                    <h2>Домашний чизкейк</h2>
+                    <h3>Что может быть лучше чизкейка с сезонными
+                        ягодами? Только домашний чизкейк!</h3>
+                    <h4>Теги: рецепты</h4>
+                    <h4>24.06.2020</h4>
+                </li>
+            </ul>
+            <button class="post-butt">Показать еще</button>
         </div>
-        <div class="post">
-            <div class="post-row">
-                <img src="img/post3.png" alt="">
-                <h2>прочитано: книжные рекомендации</h2>
-                <p>Рассказываю о прочитанных за последнее время книгах: фавориты и провалы.</p>
-                <p>Теги: книги</p>
-                <p>15.07.2020</p>
-            </div>
+    </section>
+    <section class="about">
+        <div class="about-up">
+            <h1>Обо мне</h1>
         </div>
-        <div class="post">
-            <div class="post-row2" id="big-post1">
-                <h2>СНИМКИ НА ПЛЁНКУ</h2>
-                <p>Поделилась с вами весенними фотографиями,
-                    и секретами удачных снимков.</p>
-                <p>Теги: фотографии</p>
-                <p>29.06.2020</p>
-            </div>
-        </div>
-        <div class="post">
-            <div class="post-row2" id="big-post2">
-                <h2>ДОМАШНИЙ ЧИЗКЕЙК</h2>
-                <p>Что может быть лучше чизкейка с сезонными
-                    ягодами? Только домашний чизкейк!</p>
-                <p>Теги: рецепты</p>
-                <p>24.06.2020</p>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="about">
+        <div class="about-content">
+            <ul class="clearfix">
+                <li class="about-el">
+                    <img src="img/about.png" alt="about.png">
+                </li>
+                <li class="about-el">
+                    <h4>
+                        Всем привет! Меня зовут Аня, и это мой личный блог.
+                        Здесь ты найдёшь рассказы о моих путешествиях, снимки
+                        на плёнку, рецепты, обзоры на книги. В общем, тексты о том,
+                        что мне инетресно.
+                    </h4>
+                    <br>
+                    <h4>
+                        Я работаю копирайтером, поэтому мой блоге — это ещё и моё
+                        портфолио. Ниже размещены несколько моих лучших
+                        рабочих текстов. Буду рада новым сотрудничествам!
+                    </h4>
+                    <br>
+                    <h4>
+                        Если вы хотите написать мне — это можно сделать в соцсетях
+                        или через форму. Всегда приятно услышать обратную связь
+                        от читателей и познакомиться поближе.
+                    </h4>
+                    <br>
+                    <h4>
+                        Приятного чтения!
+                    </h4>
 
-</section>
-<section class="portfolio">
+                    <h5>
+                        Я верю, что каждый раз пробуя новое,
+                        выходящее за зону моего комфорта,
+                        я действительно узнаю настояющую
+                        себя.
+                    </h5>
+                </li>
+            </ul>
 
-</section>
+        </div>
+    </section>
+    <section class="portfolio">
+        <div class="port-up">
+            <h1>Портфолио</h1>
+        </div>
+        <div class="port-content">
+            <ul class="clearfix">
+                <li class="port-el" id="port-el1">
+                    
+                </li>
+                <li class="port-el" id="port-el2">
+                    
+                </li>
+                <li class="port-el" id="port-el3">
+                    
+                </li>
+            </ul>
+            <button class="post-butt">Показать еще</button>
+        </div>
+    </section>
+    
 <section class="email">
     <div class="email-content">
         <label for="name">Ваше имя</label><input id="name" type="text" minlength="10" maxlength="200" required>
         <label for="name">Email</label><input id="email" type="text" minlength="10" maxlength="200" required>
         <label for="name">Сообщение</label><input id="text" type="text" minlength="1">
+        <input id="email-butt" type="submit">
     </div>
 </section>
+
 <section class="podval">
     <footer>
         <nav>
@@ -105,5 +170,6 @@
         </nav>
     </footer>
 </section>
+
 </body>
 </html>
