@@ -7,7 +7,7 @@
 
 .wrapper {
     margin: 0 auto;
-    width: 1500px;
+    width: 1200px;
 }
 
 ul li {
@@ -22,13 +22,13 @@ h1 {
     font-weight: 700;
     font-size: 36px;
     line-height: 54, 79px;
+    margin-bottom: 49px;
 }
 
 h2 {
     font-weight: 700;
     font-size: 18px;
     line-height: 27, 4px;
-
     margin-top: 22px;
     margin-bottom: 8px;
 }
@@ -45,8 +45,6 @@ h4 {
     font-weight: 400;
     line-height: 26px;
 }
-
-h4 {}
 
 h5 {
     font-family: 'Open Sans';
@@ -89,8 +87,8 @@ header nav {
 
 header nav ul li {
     float: left;
-    margin-top: 50px;
-    margin-left: 50px;
+    margin-top: 33px;
+    margin-left: 83px;
 }
 
 header nav ul li a {
@@ -105,9 +103,9 @@ header nav ul li a {
 /**/
 .posts {
     position: absolute;
-    width: 1202px;
+    width: 1200px;
     height: 1290px;
-    left: 118px;
+    left: 170px;
     top: 664px;
 }
 
@@ -118,7 +116,7 @@ option {
     left: 1116px;
     top: 664px;
     background: #D7D1C9;
-
+    padding: 10px;
     border-radius: 10px;
     border: none;
 
@@ -142,12 +140,10 @@ option {
     height: 268px;
     left: 118px;
     top: 775px;
-
     border-radius: 10px;
 }
 
 .post-row {
-    margin-top: 54px;
     display: block;
     width: 380px;
     float: left;
@@ -156,12 +152,23 @@ option {
 
 .post-row2 {
     float: left;
-    height: 500px;
+    width: 590px;
+    height: 552px;
     color: white;
     border-radius: 10px;
-
-    margin-right: 20px;
+    margin-right: 10px;
     margin-top: 62px;
+}
+
+.post-row2-text {
+    margin-top: 359px;
+    margin-left: 82px;
+    width: 360px;
+}
+
+.post-row2-text h3 {
+    font-size: 18px;
+    line-height: 26px;
 }
 
 #big-post1 {
@@ -172,17 +179,31 @@ option {
     background-image: url(../img/bigpost2.png);
 }
 
+.post-tag1 {
+    float: left;
+}
+
+.post-tag2 {
+    float: right;
+}
+
+.post-tag1,
+.post-tag2 {
+    filter: opacity(75%);
+}
+
 .post-butt {
     position: absolute;
     width: 224px;
     height: 46px;
     background: white;
-
+    left: 480px;
     border: 1px solid #202117;
     box-sizing: border-box;
     border-radius: 10px;
     margin-top: 104px;
     cursor: pointer;
+    margin-bottom: 85px;
 }
 
 
@@ -191,14 +212,18 @@ option {
     position: absolute;
     width: 1180px;
     height: 797.15px;
-    left: 120px;
+    left: 170px;
     top: 2039px;
 }
 
 .about-el {
     width: 590px;
     float: left;
-    margin-top: 50px;
+}
+
+.about-up {
+       margin: 0 auto;
+    width: 162px;
 }
 
 
@@ -207,8 +232,13 @@ option {
     position: absolute;
     width: 1200px;
     height: 779px;
-    left: 120px;
+    left: 170px;
     top: 2921px;
+}
+
+.port-up {
+    margin: 0 auto;
+    width: 240px;
 }
 
 .port-el {
@@ -217,8 +247,29 @@ option {
     height: 525px;
     margin-right: 20px;
     border-radius: 10px;
-
     filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.15));
+}
+
+.port-h2-1 {
+    font-size: 20px;
+    margin-top: 140px;
+    line-height: 30,44px;
+    text-align: center;
+}
+
+.port-h2-2 {
+    margin-top: 44px;
+    margin-bottom: 14px;
+    text-align: center;
+}
+
+.port-h3 {
+    width: 280px;
+    margin: 0 auto;
+}
+
+.portfolio h3 {
+    text-align: center;
 }
 
 #port-el1 {
@@ -227,6 +278,7 @@ option {
 
 #port-el2 {
     background-image: url("../img/port2.png");
+    color: white;
 }
 
 #port-el3 {
@@ -239,14 +291,22 @@ option {
     position: absolute;
     width: 996px;
     height: 741px;
-    left: 222px;
+    left: 276px;
     top: 3785px;
 }
 
 .email-content {
-    width: 1000px;
-    height: 670.17px;
+    width: 996px;
+    height: 637px;
+    left: 222px;
+    top: 3889px;
     background-image: url("../img/email.png");
+    margin-top: 49px;
+}
+
+.email-up {
+    margin: 0 auto;
+    width: 295px;
 }
 
 .email input {
@@ -264,9 +324,11 @@ input#text {
 }
 
 #email-butt {
+    position: absolute;
     width: 224px;
     height: 46px;
-
+    left: 390px;
+    top: 515px;
     border: 1px solid #202117;
     box-sizing: border-box;
     border-radius: 10px;
@@ -285,16 +347,21 @@ input#text {
 }
 
 footer nav {
-    width: 500px;
+    width: 800px;
     margin: 0 auto;
 }
 
 footer nav ul li {
     float: left;
-    margin-left: 50px;
-    margin-top: 50px;
+    margin-left: 120px;
+    margin-top: 65px;
 }
 
 footer nav ul li a {
     color: black;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24, 51px;
 }

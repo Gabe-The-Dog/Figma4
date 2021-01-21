@@ -44,42 +44,48 @@
         <div class="posts-content">
             <ul class="clearfix">
                 <li class="post-row">
-                    <img src="img/post1.png" alt="post1.png">
+                    <a href="post.html">
+                        <img src="img/post1.png" alt="post1.png">
+                    </a>
                     <h2>Путешествие в Берлин в августе</h2>
                     <h3>Летний месяц я провела в столице Германии вместе с друзьями. И вот как это было!</h3>
-                    <h4>Теги: путешествия</h4>
-                    <h4>29.09.2020</h4>
+                    <h4 class="post-tag1">Теги: путешествия</h4>
+                    <h4 class="post-tag2">29.09.2020</h4>
                 </li>
                 <li class="post-row">
                     <img src="img/post2.png" alt="post2.png">
                     <h2>Где выпить колдбрю в Москве</h2>
                     <h3>Собрала для вас список любимых кофеен,
                         где подают лучший летний напиток.</h3>
-                    <h4>Теги: город</h4>
-                    <h4>24.07.2020</h4>
+                    <h4 class="post-tag1">Теги: город</h4>
+                    <h4 class="post-tag2">24.07.2020</h4>
                 </li>
                 <li class="post-row">
                     <img src="img/post3.png" alt="post3.png">
                     <h2>Прочитано: книжные рекомендации</h2>
                     <h3>Рассказываю о прочитанных за последнее время книгах: фавориты и провалы.</h3>
-                    <h4>Теги: книги</h4>
-                    <h4>15.07.2020</h4>
+                    <h4 class="post-tag1">Теги: книги</h4>
+                    <h4 class="post-tag2">15.07.2020</h4>
                 </li>
             </ul>
             <ul class="clearfix">
                 <li class="post-row2" id="big-post1">
-                    <h2>Снимки на плёнку</h2>
-                    <h3>Поделилась с вами весенними фотографиями,
-                        и секретами удачных снимков.</h3>
-                    <h4>Теги: фотографии</h4>
-                    <h4>29.06.2020</h4>
+                    <div class="post-row2-text">
+                        <h2>Снимки на плёнку</h2>
+                        <h3>Поделилась с вами весенними фотографиями,
+                            и секретами удачных снимков.</h3>
+                        <h4 class="post-tag1">Теги: фотографии</h4>
+                        <h4 class="post-tag2">29.06.2020</h4>
+                    </div>
                 </li>
                 <li class="post-row2" id="big-post2">
-                    <h2>Домашний чизкейк</h2>
-                    <h3>Что может быть лучше чизкейка с сезонными
-                        ягодами? Только домашний чизкейк!</h3>
-                    <h4>Теги: рецепты</h4>
-                    <h4>24.06.2020</h4>
+                    <div class="post-row2-text">
+                        <h2>Домашний чизкейк</h2>
+                        <h3>Что может быть лучше чизкейка с сезонными
+                            ягодами? Только домашний чизкейк!</h3>
+                        <h4 class="post-tag1">Теги: рецепты</h4>
+                        <h4 class="post-tag2">24.06.2020</h4>
+                    </div>
                 </li>
             </ul>
             <button class="post-butt">Показать еще</button>
@@ -136,40 +142,67 @@
         <div class="port-content">
             <ul class="clearfix">
                 <li class="port-el" id="port-el1">
-                    
+                    <h2 class="port-h2-1">Блог HTML Academy</h2>
+                    <h2 class="port-h2-2">«Как учиться продуктивно»</h2>
+                    <div class="port-h3">
+                        <h3>Про основные методы обучения,
+                            которые помогут быстро и надолго
+                            запомнить информацию.</h3>
+                    </div>
                 </li>
                 <li class="port-el" id="port-el2">
-                    
+                    <h2 class="port-h2-1">Журнал «LNK»</h2>
+                    <h2 class="port-h2-2">«Зачем поцели нужны человеку?
+                        И какие они бывают»</h2>
+                    <div class="port-h3">
+                        <h3>Поцелуи — повсеместная ежедневная
+                            практика. Но зачем люди целуются?
+                            Какие смысли вкладывают в этот ритуал?
+                            И где корни этой практики?</h3>
+                    </div>
                 </li>
                 <li class="port-el" id="port-el3">
-                    
+                    <h2 class="port-h2-1">Журнал «Т — Л»</h2>
+                    <h2 class="port-h2-2">«Советы по эффективной
+                        удалённой работе»</h2>
+                    <div class="port-h3">
+                        <h3>Поделилась лайфхаками, которые помогают
+                            мне работать продуктивно из дома. </h3>
+                    </div>
                 </li>
             </ul>
             <button class="post-butt">Показать еще</button>
         </div>
     </section>
-    
-<section class="email">
-    <div class="email-content">
-        <label for="name">Ваше имя</label><input id="name" type="text" minlength="10" maxlength="200" required>
-        <label for="name">Email</label><input id="email" type="text" minlength="10" maxlength="200" required>
-        <label for="name">Сообщение</label><input id="text" type="text" minlength="1">
-        <input id="email-butt" type="submit">
-    </div>
-</section>
 
-<section class="podval">
-    <footer>
-        <nav>
-            <ul>
-                <li><a href="">ВК</a></li>
-                <li><a href="">Телеграм</a></li>
-                <li><a href="">Инстаграм</a></li>
-                <li><a href="">Твиттер</a></li>
-            </ul>
-        </nav>
-    </footer>
-</section>
+    <section class="email">
+        <div class="email-up">
+            <h1>Написать мне</h1>
+        </div>
+        <div class="email-content">
+            <label for="name">Ваше имя</label>
+            <input id="name" type="text" minlength="10" maxlength="200" required placeholder="Иван Иванов">
+            <label for="name">Email</label>
+            <input id="email" type="text" minlength="10" maxlength="200" required placeholder="google@gmail.com">
+            <label for="name">Сообщение</label>
+            <input id="text" type="text" minlength="1" placeholder="Напишите здесь ваше сообщение.">
+            <input id="email-butt" type="submit">
+        </div>
+    </section>
+
+    <section class="podval">
+        <footer>
+            <nav>
+                <ul>
+                    <li><a href="">ВК</a></li>
+                    <li><a href="">Телеграм</a></li>
+                    <li><a href="">Инстаграм</a></li>
+                    <li><a href="">Твиттер</a></li>
+                </ul>
+            </nav>
+        </footer>
+    </section>
 
 </body>
+
 </html>
