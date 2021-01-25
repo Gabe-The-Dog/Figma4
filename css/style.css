@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Spectral SC', serif;
+    outline: none;
 }
 
 .wrapper {
@@ -16,6 +17,7 @@ ul li {
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 h1 {
@@ -99,14 +101,20 @@ header nav ul li a {
     font-weight: 400;
 }
 
+header a:hover,
+footer a:hover {
+    filter: opacity(40%);
+    transition: .3s;
+}
+
 
 /**/
 .posts {
     position: absolute;
     width: 1200px;
     height: 1290px;
-    /*left: 170px;*/
-    left: 360px;
+    left: 170px;
+    /*    left: 360px;*/
     top: 664px;
 }
 
@@ -151,6 +159,11 @@ option {
     margin-right: 20px;
 }
 
+.post-row:hover {
+    filter: brightness(80%);
+    transition: .3s;
+}
+
 .post-row2 {
     float: left;
     width: 590px;
@@ -159,6 +172,11 @@ option {
     border-radius: 10px;
     margin-right: 10px;
     margin-top: 62px;
+}
+
+.post-row2:hover {
+    filter: brightness(80%);
+    transition: .3s;
 }
 
 .post-row2-text {
@@ -207,24 +225,44 @@ option {
     margin-bottom: 85px;
 }
 
+button:hover,
+input[type=submit]:hover {
+    background: black;
+    color: white;
+    transition: .6s;
+}
+
 
 /**/
 .about {
     position: absolute;
-    width: 1180px;
+    width: 1200px;
     height: 797px;
-    /*left: 170px;*/
-    left: 360px;
+    left: 170px;
+    /*    left: 360px;*/
     top: 2039px;
 }
 
 .about-el {
     width: 590px;
     float: left;
+    margin-right: 10px;
+}
+
+.about-el1 {
+    width: 400px;
+    margin-left: 40px;
+}
+
+.about-el2 {
+    width: 500px;
+    margin-left: 20px;
+    border-left: 3px solid #D7D1C9;
+    padding-left: 20px;
 }
 
 .about-up {
-       margin: 0 auto;
+    margin: 0 auto;
     width: 162px;
 }
 
@@ -234,8 +272,8 @@ option {
     position: absolute;
     width: 1200px;
     height: 779px;
-    /*left: 170px;*/
-    left: 360px;
+    left: 170px;
+    /*    left: 360px;*/
     top: 2921px;
 }
 
@@ -256,7 +294,7 @@ option {
 .port-h2-1 {
     font-size: 20px;
     margin-top: 140px;
-    line-height: 30,44px;
+    line-height: 30, 44px;
     text-align: center;
 }
 
@@ -294,8 +332,8 @@ option {
     position: absolute;
     width: 996px;
     height: 741px;
-    /*left: 276px;*/
-    left: 466px;
+    left: 276px;
+    /*    left: 466px;*/
     top: 3785px;
 }
 
@@ -344,10 +382,10 @@ input#text {
 .podval {
     background: #D7D1C9;
     position: absolute;
-    width: 100vw;
     height: 181px;
     left: 0px;
     top: 4607px;
+    width: -webkit-fill-available;
 }
 
 footer nav {
@@ -372,6 +410,13 @@ footer nav ul li a {
 
 
 /**/
+.golova2 {
+    background-image: url("../img/cartina2.png");
+    height: 581px;
+    background-size: cover;
+    background-position: center;
+}
+
 .post-content {
     position: absolute;
     width: 998px;
@@ -382,4 +427,36 @@ footer nav ul li a {
 
 .post .posts-up-el1 h1 {
     margin-bottom: 6px;
+}
+
+.comments {
+    position: absolute;
+    width: 793px;
+    height: 816px;
+    left: 121px;
+    top: 2196px;
+}
+
+.comments-up {
+    /*    position: absolute;*/
+    width: 793px;
+    height: 429px;
+    left: 121px;
+    top: 2196px;
+
+    background: #ECE1E1;
+    border-radius: 10px;
+}
+
+.comment {
+    padding: 40px 1px 1px 100px;
+}
+
+.podval2 {
+    background: #D7D1C9;
+    position: absolute;
+    height: 181px;
+    left: 0px;
+    width: -webkit-fill-available;
+    top: 3093px;
 }
