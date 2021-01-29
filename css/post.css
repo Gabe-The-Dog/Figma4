@@ -6,9 +6,10 @@
     outline: none;
 }
 
-.wrapper {
-    margin: 0 auto;
-    width: 1200px;
+.content {
+    max-width: 1200px;
+    margin: auto;
+    /* position: relative; */
 }
 
 ul li {
@@ -106,7 +107,6 @@ footer a:hover {
     position: absolute;
     width: 998px;
     height: 1465px;
-    left: 119px;
     top: 666px;
 }
 
@@ -151,7 +151,6 @@ footer a:hover {
     position: absolute;
     width: 793px;
     height: 816px;
-    left: 121px;
     top: 2196px;
 }
 
@@ -166,8 +165,33 @@ footer a:hover {
     border-radius: 10px;
 }
 
+.comments-bottom {
+    padding-left: 80px;
+}
+
+.comments h2 {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
 .comment {
     padding: 40px 1px 1px 100px;
+}
+
+.email1 {
+    width: 221px;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 0 0 15px 0;
+}
+
+.email2 {
+    width: 406px;
+    height: 208px;
+    padding: 10px 10px 150px 20px;
+    border: 1px solid #2E2F22;
+    box-sizing: border-box;
+    border-radius: 10px;
 }
 
 #email-butt {
@@ -178,6 +202,13 @@ footer a:hover {
     box-sizing: border-box;
     border-radius: 10px;
     cursor: pointer;
+    background: white;
+}
+
+#email-butt:hover {
+    background: black;
+    color: white;
+    transition: .6s;
 }
 
 

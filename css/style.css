@@ -6,9 +6,9 @@
     outline: none;
 }
 
-.wrapper {
-    margin: 0 auto;
-    width: 1200px;
+.content {
+    max-width: 1200px;
+    margin: auto;
 }
 
 ul li {
@@ -113,8 +113,6 @@ footer a:hover {
     position: absolute;
     width: 1200px;
     height: 1290px;
-    left: 170px;
-    /*    left: 360px;*/
     top: 664px;
 }
 
@@ -128,6 +126,7 @@ option {
     padding: 10px;
     border-radius: 10px;
     border: none;
+
 
     font-family: 'Open Sans', serif;
     font-style: normal;
@@ -238,8 +237,6 @@ input[type=submit]:hover {
     position: absolute;
     width: 1200px;
     height: 797px;
-    left: 170px;
-    /*    left: 360px;*/
     top: 2039px;
 }
 
@@ -272,8 +269,6 @@ input[type=submit]:hover {
     position: absolute;
     width: 1200px;
     height: 779px;
-    left: 170px;
-    /*    left: 360px;*/
     top: 2921px;
 }
 
@@ -294,7 +289,7 @@ input[type=submit]:hover {
 .port-h2-1 {
     font-size: 20px;
     margin-top: 140px;
-    line-height: 30, 44px;
+    line-height: 30px;
     text-align: center;
 }
 
@@ -332,9 +327,8 @@ input[type=submit]:hover {
     position: absolute;
     width: 996px;
     height: 741px;
-    left: 276px;
-    /*    left: 466px;*/
     top: 3785px;
+    margin: 0 102px;
 }
 
 .email-content {
@@ -344,6 +338,7 @@ input[type=submit]:hover {
     top: 3889px;
     background-image: url("../img/email.png");
     margin-top: 49px;
+
 }
 
 .email-up {
@@ -383,9 +378,9 @@ input#text {
     background: #D7D1C9;
     position: absolute;
     height: 181px;
-    left: 0px;
+    left: 0;
     top: 4607px;
-    width: -webkit-fill-available;
+    width: 100%;
 }
 
 footer nav {
