@@ -370,6 +370,13 @@ input#text {
     box-sizing: border-box;
     border-radius: 10px;
     cursor: pointer;
+    background: transparent;
+}
+
+#email-butt:hover {
+    background: black;
+    color: white;
+    transition: .6s;
 }
 
 

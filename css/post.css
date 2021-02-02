@@ -6,6 +6,13 @@
     outline: none;
 }
 
+strong {
+    position: absolute;
+    display: block;
+    left: 65px;
+    top: 15px;
+}
+
 .content {
     max-width: 1200px;
     margin: auto;
@@ -146,6 +153,7 @@ footer a:hover {
     float: right;
 }
 
+
 /**/
 .comments {
     position: absolute;
@@ -172,6 +180,10 @@ footer a:hover {
 .comments h2 {
     margin-top: 70px;
     margin-bottom: 70px;
+}
+
+.comment-user {
+    position: relative;
 }
 
 .comment {
@@ -217,8 +229,8 @@ footer a:hover {
     background: #D7D1C9;
     position: absolute;
     height: 181px;
-    left: 0px;
-    width: -webkit-fill-available;
+    left: 0;
+    width: 100%;
     top: 3093px;
 }
 
