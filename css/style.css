@@ -338,12 +338,18 @@ input[type=submit]:hover {
     top: 3889px;
     background-image: url("../img/email.png");
     margin-top: 49px;
-
+    border-radius: 10px;
 }
 
 .email-up {
     margin: 0 auto;
     width: 295px;
+}
+
+.form-row-up {
+    width: 837px;
+    margin: 0 auto;
+    padding-top: 53px;
 }
 
 .email input {
@@ -353,6 +359,8 @@ input[type=submit]:hover {
     border-radius: 10px;
     width: 407px;
     height: 63px;
+    margin-top: 12px;
+    margin-bottom: 20px;
 }
 
 input#text {
@@ -360,12 +368,28 @@ input#text {
     height: 293px;
 }
 
+#textarena {
+    background: rgba(255, 255, 255, 0.4);
+    border: 1px solid #202117;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 20px;
+    resize: none;
+    margin-top: 12px;
+}
+
+input#name,
+input#emaill,
+input#text {
+    padding: 20px;
+}
+
 #email-butt {
     position: absolute;
     width: 224px;
     height: 46px;
     left: 390px;
-    top: 535px;
+    top: 615px;
     border: 1px solid #202117;
     box-sizing: border-box;
     border-radius: 10px;
