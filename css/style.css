@@ -434,55 +434,9 @@ footer nav ul li a {
     line-height: 24px;
 }
 
-
-/**/
-.golova2 {
-    background-image: url("../img/cartina2.png");
-    height: 581px;
-    background-size: cover;
-    background-position: center;
-}
-
-.post-content {
-    position: absolute;
-    width: 998px;
-    height: 1465px;
-    left: 119px;
-    top: 666px;
-}
-
-.post .posts-up-el1 h1 {
-    margin-bottom: 6px;
-}
-
-.comments {
-    position: absolute;
-    width: 793px;
-    height: 816px;
-    left: 121px;
-    top: 2196px;
-}
-
-.comments-up {
-    /*    position: absolute;*/
-    width: 793px;
-    height: 429px;
-    left: 121px;
-    top: 2196px;
-
-    background: #ECE1E1;
-    border-radius: 10px;
-}
-
-.comment {
-    padding: 40px 1px 1px 100px;
-}
-
-.podval2 {
-    background: #D7D1C9;
-    position: absolute;
-    height: 181px;
-    left: 0px;
-    width: -webkit-fill-available;
-    top: 3093px;
+@media only screen and (max-width: 1200px) {
+    .golova,
+    .podval {
+        width: 123%;
+    }
 }
