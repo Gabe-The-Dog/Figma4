@@ -77,10 +77,16 @@ h5 {
     height: 581px;
     background-size: cover;
     background-position: center;
+    margin-bottom: 80px;
 }
 
 .logo {
     float: left;
+}
+
+#ninja,
+#ninja1 {
+    display: none;
 }
 
 header nav {
@@ -110,18 +116,14 @@ footer a:hover {
 
 /**/
 .posts {
-    position: absolute;
     width: 1200px;
     height: 1290px;
-    top: 664px;
 }
 
 select,
 option {
     width: 203px;
     height: 46px;
-    left: 1116px;
-    top: 664px;
     background: #D7D1C9;
     padding: 10px;
     border-radius: 10px;
@@ -146,8 +148,6 @@ option {
 .posts .post-row img {
     width: 387px;
     height: 268px;
-    left: 118px;
-    top: 775px;
     border-radius: 10px;
 }
 
@@ -189,11 +189,18 @@ option {
     line-height: 26px;
 }
 
-#big-post1 {
+#big-post1,
+#big-post11 {
     background-image: url(../img/bigpost1.png);
 }
 
-#big-post2 {
+#big-post11,
+#big-post22 {
+    margin: 12px 10px 30px 0;
+}
+
+#big-post2,
+#big-post22 {
     background-image: url(../img/bigpost2.png);
 }
 
@@ -211,17 +218,15 @@ option {
 }
 
 .post-butt {
-    position: absolute;
     width: 224px;
     height: 46px;
     background: white;
-    left: 480px;
     border: 1px solid #202117;
     box-sizing: border-box;
     border-radius: 10px;
-    margin-top: 104px;
     cursor: pointer;
-    margin-bottom: 85px;
+    display: block;
+    margin: 50px auto;
 }
 
 button:hover,
@@ -234,10 +239,8 @@ input[type=submit]:hover {
 
 /**/
 .about {
-    position: absolute;
     width: 1200px;
     height: 797px;
-    top: 2039px;
 }
 
 .about-el {
@@ -266,10 +269,9 @@ input[type=submit]:hover {
 
 /**/
 .portfolio {
-    position: absolute;
     width: 1200px;
     height: 779px;
-    top: 2921px;
+    margin-top: 80px;
 }
 
 .port-up {
@@ -281,7 +283,7 @@ input[type=submit]:hover {
     float: left;
     width: 380px;
     height: 525px;
-    margin-right: 20px;
+    margin: 10px;
     border-radius: 10px;
     filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.15));
 }
@@ -308,34 +310,33 @@ input[type=submit]:hover {
     text-align: center;
 }
 
-#port-el1 {
+#port-el1,
+#port-el11 {
     background-image: url("../img/port1.png");
 }
 
-#port-el2 {
+#port-el2,
+#port-el22 {
     background-image: url("../img/port2.png");
     color: white;
 }
 
-#port-el3 {
+#port-el3,
+#port-el33 {
     background-image: url("../img/port3.png");
 }
 
 
 /**/
 .email {
-    position: absolute;
     width: 996px;
     height: 741px;
-    top: 3785px;
     margin: 0 102px;
 }
 
 .email-content {
     width: 996px;
     height: 637px;
-    left: 222px;
-    top: 3889px;
     background-image: url("../img/email.png");
     margin-top: 49px;
     border-radius: 10px;
@@ -385,11 +386,10 @@ input#text {
 }
 
 #email-butt {
-    position: absolute;
+    display: block;
+    margin: auto;
     width: 224px;
     height: 46px;
-    left: 390px;
-    top: 615px;
     border: 1px solid #202117;
     box-sizing: border-box;
     border-radius: 10px;
@@ -407,11 +407,10 @@ input#text {
 /**/
 .podval {
     background: #D7D1C9;
-    position: absolute;
     height: 181px;
-    left: 0;
-    top: 4607px;
     width: 100%;
+    margin-top: 100px;
+    display: inline-block;
 }
 
 footer nav {
