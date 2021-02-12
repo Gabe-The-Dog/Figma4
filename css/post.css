@@ -258,6 +258,9 @@ footer nav ul li a {
 @media only screen and (max-width: 1000px) {
     .golova2,
     .podval2 {
-        width: 102%;
+        width: 104%;
+    }
+    .content {
+        max-width: 960px;
     }
 }

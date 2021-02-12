@@ -196,7 +196,7 @@ option {
 
 #big-post11,
 #big-post22 {
-    margin: 12px 10px 30px 0;
+    margin: 12px 10px 70px 0;
 }
 
 #big-post2,
@@ -272,6 +272,7 @@ input[type=submit]:hover {
     width: 1200px;
     height: 779px;
     margin-top: 80px;
+    display: inline-block;
 }
 
 .port-up {
@@ -326,12 +327,19 @@ input[type=submit]:hover {
     background-image: url("../img/port3.png");
 }
 
+#port-el11,
+#port-el22,
+#port-el33 {
+   
+}
+
 
 /**/
 .email {
     width: 996px;
     height: 741px;
-    margin: 0 102px;
+    margin: 80px 102px 0;
+    display: inline-block;
 }
 
 .email-content {
@@ -371,12 +379,13 @@ input#text {
 
 #textarena {
     background: rgba(255, 255, 255, 0.4);
+    width: 835px;
     border: 1px solid #202117;
     box-sizing: border-box;
     border-radius: 10px;
     padding: 20px;
     resize: none;
-    margin-top: 12px;
+    margin: 12px 0 30px 0;
 }
 
 input#name,
@@ -410,7 +419,7 @@ input#text {
     height: 181px;
     width: 100%;
     margin-top: 100px;
-    display: inline-block;
+    display: block;
 }
 
 footer nav {
@@ -436,6 +445,9 @@ footer nav ul li a {
 @media only screen and (max-width: 1200px) {
     .golova,
     .podval {
-        width: 123%;
+        width: 124%;
+    }
+    .content {
+	max-width: 960px;
     }
 }
